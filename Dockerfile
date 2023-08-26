@@ -20,6 +20,7 @@ WORKDIR /pb
 RUN go get github.com/pocketbase/pocketbase
 
 RUN go build -o pocketbase
+WORKDIR /
 
 EXPOSE 8080
 
