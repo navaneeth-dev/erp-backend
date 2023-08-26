@@ -22,8 +22,6 @@ RUN go get github.com/pocketbase/pocketbase
 RUN go build -o pocketbase
 WORKDIR /
 
-COPY ./pb_migrations /pb/pb_migrations
-
 EXPOSE 8080
 
 # start PocketBase
