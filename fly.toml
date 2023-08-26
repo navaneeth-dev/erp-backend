@@ -1,0 +1,21 @@
+# fly.toml app configuration file generated for hackathrone-backend on 2023-08-26T19:18:08+05:30
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "hackathrone-backend"
+primary_region = "sin"
+
+[build]
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = false
+  min_machines_running = 1
+  processes = ["app"]
+
+[mounts]
+  destination = "/pb/pb_data"
+  source = "pb_data"
