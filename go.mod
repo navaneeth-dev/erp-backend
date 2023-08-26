@@ -1,4 +1,4 @@
-module github.com/navaneeth-dev/hackerthrone-backend
+module github.com/navaneeth-dev/hackathrone-backend
 
 go 1.20
 
