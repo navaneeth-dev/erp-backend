@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	_ "github.com/navaneeth-dev/hackathrone-backend/migrations"
+	_ "github.com/navaneeth-dev/erp-backend/migrations"
 	"github.com/pocketbase/pocketbase"
 	"github.com/pocketbase/pocketbase/plugins/migratecmd"
 )

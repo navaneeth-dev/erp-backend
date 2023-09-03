@@ -1,4 +1,4 @@
-module github.com/navaneeth-dev/hackathrone-backend
+module github.com/navaneeth-dev/erp-backend
 
 go 1.20
 

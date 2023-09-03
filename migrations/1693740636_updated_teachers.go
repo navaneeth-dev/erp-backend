@@ -11,7 +11,7 @@ func init() {
 	m.Register(func(db dbx.Builder) error {
 		dao := daos.New(db);
 
-		collection, err := dao.FindCollectionByNameOrId("ezt92lv1megwhoh")
+		collection, err := dao.FindCollectionByNameOrId("8nq055ts67h4xie")
 		if err != nil {
 			return err
 		}
@@ -22,7 +22,7 @@ func init() {
 	}, func(db dbx.Builder) error {
 		dao := daos.New(db);
 
-		collection, err := dao.FindCollectionByNameOrId("ezt92lv1megwhoh")
+		collection, err := dao.FindCollectionByNameOrId("8nq055ts67h4xie")
 		if err != nil {
 			return err
 		}
